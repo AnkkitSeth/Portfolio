@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Handshake from "../assets/handshake.png";
-import { FaLinkedinIn, FaDribbble, FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaTwitter} from "react-icons/fa";
 
 const Wrapper = styled.section`
   text-align: center;
@@ -216,24 +216,24 @@ function Contact() {
         {/* Default Footer */}
         <Footer>
           <CopyrightBox>
-            <h4>2024 All rights reserved.</h4>
+            <h4>© 2025 Designed in silence 🛠️, deployed in chaos 🔥 — Ankkit Seth</h4>
           </CopyrightBox>
           <SocialBox>
             <a href="https://www.linkedin.com/in/ankkit-seth-495182237" aria-label="LinkedIn">LinkedIn</a>
             <h4>/</h4>
-            <a href="https://dribbble.com/" aria-label="Dribbble">Dribbble</a>
+            <a href="https://github.com/AnkkitSeth" aria-label="GitHub">GitHub</a>
             <h4>/</h4>
-            <a href="https://www.instagram.com/" aria-label="Instagram">Instagram</a>
+            <a href="https://x.com/Ankkit_Seth03" aria-label="Twitter">Twitter</a>
           </SocialBox>
         </Footer>
 
         {/* Mobile Footer */}
         <MobileFooter>
-          <p>© 2024 All rights reserved.</p>
+          <p>© 2025 Designed in silence 🛠️, deployed in chaos 🔥 — Ankkit Seth</p>
           <SocialIcons>
             <IconButton href="https://www.linkedin.com/in/ankkit-seth-495182237" aria-label="LinkedIn"><FaLinkedinIn/></IconButton>
-            <IconButton href="https://dribbble.com/" aria-label="Dribbble"><FaDribbble/></IconButton>
-            <IconButton href="https://www.instagram.com/" aria-label="Instagram"><FaInstagram/></IconButton>
+            <IconButton href="https://github.com/AnkkitSeth" aria-label="GitHub"><FaGithub/></IconButton>
+            <IconButton href="https://x.com/Ankkit_Seth03" aria-label="Twitter"><FaTwitter/></IconButton>
           </SocialIcons>
         </MobileFooter>
 

@@ -7,7 +7,20 @@ import mattered from "../assets/mattered.svg";
 import nationalbank from "../assets/nationalbank.svg";
 import adobe from "../assets/adobe.svg";
 import codeacedemy from "../assets/codeacedemy.svg";
-import subway from "../assets/subway.svg";
+
+import c from "../assets/c.svg";
+import java from "../assets/java.svg";
+import python from "../assets/python.svg";
+import html from "../assets/html.svg";
+import css from "../assets/css.svg";
+import javascript from "../assets/javascript.svg";
+import mysql from "../assets/mysql.svg";
+import react from "../assets/react.svg";
+import nodejs from "../assets/nodejs.svg";
+import mongodb from "../assets/mongodb.svg";
+
+// 🔽 Resume Import
+import ResumePDF from "../resume/ANKKITSETH.pdf";
 
 const Wrapper = styled.section`
   font-family: 'PT Sans Narrow', sans-serif;
@@ -16,7 +29,7 @@ const Wrapper = styled.section`
 `;
 
 const B_Container = styled.div`
-  background-color: rgba(92, 92, 82, 0.21);
+  background-color: white;
   width: 100%;
   padding: 0 0 10px 0;
   overflow-x: hidden;
@@ -152,7 +165,7 @@ const MarqueeWrapper = styled.div`
 
 const BrandImg = styled.img`
   width: auto;
-  height: 50px;
+  height: 130px;
 
   @media (max-width: 576px) {
     height: 43px;
@@ -171,33 +184,19 @@ function Hero() {
                 <NameTag>Ankkit Seth 👋</NameTag>
               </ProfileContainer>
               <GradientText>
-                Building digital <br /> products, brands, and <br /> experience.
+                Writing code that <br /> transforms ideas <br /> into reality.
               </GradientText>
-              <Button>
-                Latest Shots <ArrowUpRight size={20} />
-              </Button>
+
+              {/* 🔽 Resume Download Button */}
+              <a href={ResumePDF} download="Ankkit_Seth_Resume.pdf" style={{ textDecoration: "none" }}>
+                <Button>
+                  Download Resume <ArrowUpRight size={20} />
+                </Button>
+              </a>
             </Content>
           </S_Container>
 
-          <LogoContainer>
-            <MarqueeWrapper>
-              {/* Original Set */}
-              <BrandImg src={subway} alt="subway" />
-              <BrandImg src={codeacedemy} alt="codeacademy" />
-              <BrandImg src={adobe} alt="adobe" />
-              <BrandImg src={nationalbank} alt="national bank" />
-              <BrandImg src={cocacola} alt="cocacola" />
-              <BrandImg src={mattered} alt="mattered" />
-
-              {/* Duplicate Set for Seamless Scrolling */}
-              <BrandImg src={subway} alt="subway" />
-              <BrandImg src={codeacedemy} alt="codeacademy" />
-              <BrandImg src={adobe} alt="adobe" />
-              <BrandImg src={nationalbank} alt="national bank" />
-              <BrandImg src={cocacola} alt="cocacola" />
-              <BrandImg src={mattered} alt="mattered" />
-            </MarqueeWrapper>
-          </LogoContainer>
+         
         </M_Container>
       </B_Container>
     </Wrapper>
