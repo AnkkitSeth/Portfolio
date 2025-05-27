@@ -225,8 +225,8 @@ export default function Projects() {
             <p>Real-time chat app using WebSockets for fast, live messaging.</p>
             <small>Tech: React, Node.js, Express, Socket.io</small>
             <ButtonsBox>
-              <ButtonGithub href="https://github.com/yourusername/sockettalk" target="_blank">GitHub</ButtonGithub>
-              <ButtonLiveDemo href="https://sockettalk.example.com" target="_blank">Live Demo</ButtonLiveDemo>
+              <ButtonGithub href="https://github.com/AnkkitSeth/sockettalk" target="_blank">GitHub</ButtonGithub>
+              <ButtonLiveDemo href="#" target="_blank">Live Demo</ButtonLiveDemo>
             </ButtonsBox>
           </Card>
 
@@ -236,8 +236,8 @@ export default function Projects() {
             <p>User-friendly eCommerce platform offering smooth product browsing and checkout.</p>
             <small>Tech: React, Styled-Components, Redux</small>
             <ButtonsBox>
-              <ButtonGithub href="https://github.com/yourusername/myshop" target="_blank">GitHub</ButtonGithub>
-              <ButtonLiveDemo href="https://myshop.example.com" target="_blank">Live Demo</ButtonLiveDemo>
+              <ButtonGithub href="https://github.com/AnkkitSeth/myshop" target="_blank">GitHub</ButtonGithub>
+              <ButtonLiveDemo href="#" target="_blank">Live Demo</ButtonLiveDemo>
             </ButtonsBox>
           </Card>
         </CardsRow>
