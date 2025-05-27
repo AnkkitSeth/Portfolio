@@ -3,10 +3,10 @@ import styled from "styled-components";
 import { AiFillWechat } from "react-icons/ai";
 import { IoRocket } from "react-icons/io5";
 import { FaSackDollar, FaCartShopping } from "react-icons/fa6";
-import ChatPic from '../assets/Chat_img.jpg';
-import Ecommerce from '../assets/Ecommerce_img.jpg';
-import RiseHub from '../assets/RiseHub_img.jpg';
-import Earn from '../assets/Earn_img.jpg';
+import ChatPic from '../assets/Chat_img.webp';
+import Ecommerce from '../assets/Ecommerce_img.webp';
+import RiseHub from '../assets/RiseHub_img.webp';
+import Earn from '../assets/Earn_img.webp';
 
 const Wrapper = styled.section`
   font-family: 'PT Sans Narrow', sans-serif;

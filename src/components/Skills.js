@@ -155,10 +155,11 @@ const MarqueeWrapper = styled.div`
   gap: 100px;
   height: 190px;
   
-  animation: ${marquee} 40s linear infinite;
+  animation: ${marquee} 30s linear infinite;
 
   @media (max-width: 576px) {
     height: 80px;
+    animation: ${marquee} 8s linear infinite;
   }
 `;
 

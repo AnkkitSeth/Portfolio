@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { AiFillWechat } from "react-icons/ai";
 import { IoRocket } from "react-icons/io5";
 import { FaSackDollar, FaCartShopping } from "react-icons/fa6";
-import AnkkitPic from '../assets/AnkkitPic2.png';
+import AnkkitPic from '../assets/AnkkitPic2.webp';
 
 const Wrapper = styled.section`
   font-family: 'PT Sans Narrow', sans-serif;

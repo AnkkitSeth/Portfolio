@@ -1,12 +1,8 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
 import { ArrowUpRight } from "lucide-react";
-import ProfilePic from "../assets/profilepic.jpg";
-import cocacola from "../assets/cocacola.svg";
-import mattered from "../assets/mattered.svg";
-import nationalbank from "../assets/nationalbank.svg";
-import adobe from "../assets/adobe.svg";
-import codeacedemy from "../assets/codeacedemy.svg";
+import ProfilePic from "../assets/profilepic.webp";
+
 
 import c from "../assets/c.svg";
 import java from "../assets/java.svg";

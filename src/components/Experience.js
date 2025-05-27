@@ -167,27 +167,31 @@ const Experience = () => {
         <Timeline>
           <Card>
             <h4>Frontend Developer</h4>
-            <h5>Alpha Paradox • 2023 – Present</h5>
+            <h5>Alpha Paradox • May 2024 – Present</h5>
             <p>
               Contributed to major frontend projects using React, Styled Components, and UI libraries. Led internal training sessions for freshers and school students on modern development tools and best practices.
             </p>
           </Card>
 
+          
+
           <Card>
-            <h4>Tech Trainer & Mentor</h4>
-            <h5>Alpha Paradox Initiative</h5>
+            <h4>Intern – Web Development</h4>
+            <h5>YHills Edutech • Aug 2023 - Sep 2023</h5>
             <p>
-              Spearheaded an educational initiative to train college and school freshers on frontend and backend tools. Designed curriculum, provided one-on-one mentorship, and helped learners build real projects.
+              Successfully completed a project-based internship focused on full-stack web development. Gained hands-on experience with React, Node.js, and MongoDB through practical assignments and project submissions.
             </p>
           </Card>
 
           <Card>
             <h4>Intern – Web Development</h4>
-            <h5>YHills Edutech • 2022</h5>
+            <h5>Eimple Labs, Bangalore • Jun 2023 - Jul 2023</h5>
             <p>
-              Successfully completed a project-based internship focused on full-stack web development. Gained hands-on experience with React, Node.js, and MongoDB through practical assignments and project submissions.
+              Completed a beginner-level internship focused on the fundamentals of web development. Gained hands-on experience by building small projects using HTML, CSS, and JavaScript, enhancing both technical skills and practical understanding of frontend development.
             </p>
-          </Card>
+        </Card>
+
+
         </Timeline>
 
       </Container>
