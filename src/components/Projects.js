@@ -221,11 +221,11 @@ export default function Projects() {
         <CardsRow>
           <Card bg={ChatPic}>
             <Icon><AiFillWechat /></Icon>
-            <h3>SocketTalk</h3>
+            <h3>ChatMate</h3>
             <p>Real-time chat app using WebSockets for fast, live messaging.</p>
             <small>Tech: React, Node.js, Express, Socket.io</small>
             <ButtonsBox>
-              <ButtonGithub href="https://github.com/AnkkitSeth/sockettalk" target="_blank">GitHub</ButtonGithub>
+              <ButtonGithub href="https://github.com/AnkkitSeth/chatmate" target="_blank">GitHub</ButtonGithub>
               <ButtonLiveDemo href="#" target="_blank">Live Demo</ButtonLiveDemo>
             </ButtonsBox>
           </Card>
@@ -234,7 +234,7 @@ export default function Projects() {
             <Icon><FaCartShopping /></Icon>
             <h3>MyShop</h3>
             <p>User-friendly eCommerce platform offering smooth product browsing and checkout.</p>
-            <small>Tech: React, Styled-Components, Redux</small>
+            <small>Tech: HTML, CSS, JavaScript</small>
             <ButtonsBox>
               <ButtonGithub href="https://github.com/AnkkitSeth/myshop" target="_blank">GitHub</ButtonGithub>
               <ButtonLiveDemo href="#" target="_blank">Live Demo</ButtonLiveDemo>
