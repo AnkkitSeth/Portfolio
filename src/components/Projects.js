@@ -1,12 +1,14 @@
 import React from "react";
 import styled from "styled-components";
 import { AiFillWechat } from "react-icons/ai";
+import { TiCloudStorageOutline } from "react-icons/ti";
 import { IoRocket } from "react-icons/io5";
 import { FaSackDollar, FaCartShopping } from "react-icons/fa6";
 import ChatPic from '../assets/Chat_img.webp';
 import Ecommerce from '../assets/Ecommerce_img.webp';
 import RiseHub from '../assets/RiseHub_img.webp';
 import Earn from '../assets/Earn_img.webp';
+import cloudnest from '../assets/CloudNest.jpg';
 
 const Wrapper = styled.section`
   font-family: 'PT Sans Narrow', sans-serif;
@@ -219,6 +221,18 @@ export default function Projects() {
         {/* Full Stack Projects */}
         <SectionTitle>Full Stack Projects</SectionTitle>
         <CardsRow>
+
+          <Card bg={cloudnest}>
+            <Icon><TiCloudStorageOutline /></Icon>
+            <h3>CloudNest</h3>
+            <p>Secure cloud storage platform where users can upload and access files anytime.</p>
+            <small>Tech: Node.js, Express.js, MongoDB, EJS, Cloudinary</small>
+            <ButtonsBox>
+              <ButtonGithub href="https://github.com/AnkkitSeth/cloudnest" target="_blank">GitHub</ButtonGithub>
+              <ButtonLiveDemo href="https://cloudnest-xdc5.onrender.com" target="_blank">Live Demo</ButtonLiveDemo>
+            </ButtonsBox>
+          </Card>
+
           <Card bg={ChatPic}>
             <Icon><AiFillWechat /></Icon>
             <h3>ChatMate</h3>

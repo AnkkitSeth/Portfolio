@@ -149,7 +149,7 @@ const Experience = () => {
             <h5>Jharkhand Raksha Shakti University • 2021 – 2024</h5>
             <p>
               Graduated with a specialization in Cyber Security and Application Development.<br />
-              <strong>CGPA: 9.34</strong>
+              <strong>CGPA: 9.38</strong>
             </p>
           </Card>
         </Timeline>
